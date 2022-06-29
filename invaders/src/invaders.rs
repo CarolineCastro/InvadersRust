@@ -31,7 +31,7 @@ impl Invaders {
                             && (y < 9)
                             && (x % 2 == 0)
                             && (y % 2 == 0)
-                            && (x == 2) {
+                            {
                                 army.push(Invader { x, y });
                             }
             }
